@@ -1,0 +1,3 @@
+#!/bin/bash
+
+knife bootstrap localhost -r 'recipe[chef-client]' -x vagrant -P vagrant -p ${1:-2201} --sudo
