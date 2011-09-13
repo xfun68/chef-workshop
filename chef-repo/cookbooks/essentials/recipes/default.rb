@@ -8,6 +8,6 @@ end
   end 
 end
 
-package "git" do
+package "git-core" do
   action :install
 end
